@@ -15,17 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EcoApp4k"
         tools:targetApi="31">
-        <activity
-            android:name=".LolActivity2"
-            android:exported="false" />
+
         <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".BottleActivity"
-            android:exported="false" />
-        <activity
-            android:name=".BarActivity"
             android:exported="false" />
         <activity
             android:name=".FrameActivity"
