@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27764156558",
+    "project_id": "ecoaapp4k",
+    "storage_bucket": "ecoaapp4k.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27764156558:android:3c2b683798cb8853f001df",
+        "android_client_info": {
+          "package_name": "com.unal.ecoapp4k"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pVHKl6KADa1tqdAHggWdeirTnvkDH7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

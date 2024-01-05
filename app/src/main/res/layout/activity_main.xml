@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/vector" />
+
+
+    <EditText
+
+        android:id="@+id/etcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="8dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:hint="Nombre"
+        android:background="@drawable/custom_input"/>
+
+    <EditText
+
+        android:id="@+id/etcontraseña"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="8dp"
+        android:paddingStart="12dp"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:hint="Contraseña"
+        android:textColor="#000000"
+        android:background="@drawable/custom_input"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Btregistrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            style="@style/botones2"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:id="@+id/Btiniciarsesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesion"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            style="@style/botones2"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

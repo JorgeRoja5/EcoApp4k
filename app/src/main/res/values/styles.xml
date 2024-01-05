@@ -1,0 +1,30 @@
+<resources>
+    <style name="botones">
+        <item name="cornerRadius">10dp</item>
+        <item name="backgroundTint">#54B79A</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="botones2">
+        <item name="cornerRadius">10dp</item>
+        <item name="backgroundTint">#54B79A</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="bordes" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="color">#00AA66 </item>
+    </style>
+
+
+
+        <style name="Theme.Fab_Bottom_app_bar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">#0F9D58</item>
+            <item name="colorPrimaryVariant">#0F9D58</item>
+            <item name="colorOnPrimary">#000</item>
+        </style>
+
+
+
+
+
+</resources>
